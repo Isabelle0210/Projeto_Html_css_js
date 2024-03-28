@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #BD3944;
+    margin: 0;
+    padding: 0;
+}
+/* Color Theme Swatches in Hex 
+.Valorant-1-hex { color: #FD4556; }
+.Valorant-2-hex { color: #BD3944; }
+.Valorant-3-hex { color: #53212B; }
+.Valorant-4-hex { color: #FFFBF5; }
+.Valorant-5-hex { color: #000000; }*/
+
+/* Color Theme Swatches in RGBA 
+.Valorant-1-rgba { color: rgba(253, 68, 86, 1); }
+.Valorant-2-rgba { color: rgba(188, 56, 68, 1); }
+.Valorant-3-rgba { color: rgba(82, 33, 42, 1); }
+.Valorant-4-rgba { color: rgba(255, 251, 244, 1); }
+.Valorant-5-rgba { color: rgba(0, 0, 0, 1); }*/
+
+/* Color Theme Swatches in HSLA 
+.Valorant-1-hsla { color: hsla(354, 97, 63, 1); }
+.Valorant-2-hsla { color: hsla(354, 53, 48, 1); }
+.Valorant-3-hsla { color: hsla(348, 43, 22, 1); }
+.Valorant-4-hsla { color: hsla(36, 100, 98, 1); }
+.Valorant-5-hsla { color: hsla(0, 0, 0, 1); }*/
+

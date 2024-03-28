@@ -1,0 +1,8 @@
+.navegação{
+    background-color:#000000;
+    
+}
+.navegação_inicial li a{
+    list-style: none;
+    text-decoration: none;
+}
