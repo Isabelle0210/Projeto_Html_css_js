@@ -1,8 +1,41 @@
-.navegação{
+.container{
+    margin: 0;
+    width: auto;
+}
+nav{
     background-color:#000000;
+    width: auto;
+    height: 80px;
     
 }
-.navegação_inicial li a{
-    list-style: none;
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline-block;/*faz com que os itens fique na mesma linha*/
+}
+nav ul li a {
+    display: block;
+    color: white;
     text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+@media only screen and (max-width:550px) {
+    nav ul{
+        display: none;/*ocultara a barra de navegação*/
+        position: ;
+    }
+    nav ul li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    nav:hover ul{
+        display: block;
+    }
 }
