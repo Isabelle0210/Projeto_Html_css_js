@@ -61,6 +61,32 @@
     }
   }
   
+  @media screen and (max-width: 800px) {
+    body {
+      overflow-x: hidden;/*para esconder os elementos que apareceriam em transform*/
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 100%;
+      height: 150px;
+      background: #010101;
+      flex-direction: column;
+      align-items: center;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      opacity: 0.7;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
   .nav-list.active {
     transform: translateX(0);
   }
