@@ -35,6 +35,9 @@
     transition: 0.3s;
   }
   /*main*/
+  .Conteudo_inline{
+    
+  }
   main article img{
     width: 30%;
     padding: 40px;
