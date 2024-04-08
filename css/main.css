@@ -34,6 +34,11 @@
     margin: 8px;
     transition: 0.3s;
   }
+  /*main*/
+  main article img{
+    width: 30%;
+    padding: 40px;
+  }
   
   @media (max-width: 999px)and (min-width:300px) {
     body {
